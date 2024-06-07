@@ -1,0 +1,19 @@
+<header style="background-color: rgb(220, 231, 236);">
+    <nav>
+        <p><a href="/">Главная</a></p>
+        <p><a href="/about">Про нас</a></p>
+    </nav>
+    <form method="post" action="/check-user">
+        <input type="text" name="username" placeholder="Имя пользователя">
+        <button type="submit">Поиск</button>
+    </form>
+    <script>
+        const img = document.createElement('img')
+        img.src='56348.jpg'
+        img.style.width='200px';
+        img.style.height='200px';
+        const cont = document.querySelector('header')
+        cont.append(img);
+    </script>
+
+</header>

@@ -1,0 +1,32 @@
+body{
+    background: rgb(172, 177, 184);
+    font-size: 14px;
+    color: darkgreen;
+}
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+}
+
+nav {
+    display: flex;
+    margin-left: 30%;
+
+}
+
+body p {
+    width: 350px;
+    background-color: rgb(228, 241, 240);
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #383535;
+    line-height: 150%;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+}
+
